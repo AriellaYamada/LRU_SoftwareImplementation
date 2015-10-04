@@ -3,7 +3,7 @@ var nest;
 var chickens;
 var interval;
 
-document.onload(initializingVariables());
+document.addEventListener("DOMContentLoaded", initializingVariables());
 //document.addEventListener("DOMContentLoaded", setInterval(interruption(), 3000));
 function initializingVariables() {
     nest = new Array(6);
@@ -15,26 +15,42 @@ function initializingVariables() {
             auxAccess: ""
         };
     }
-    chickens = ["galinha1.png", "galinha3.png", "galinha3.png", "galinha4.png", "galinha5.png", "galinha6.png"];
-    interval = setInterval(interruption(), 300);
+    chickens = ["images/Galinha1.png", "images/Galinha3.png", "images/Galinha3.png", "images/Galinha4.png", "galinha5.png", "galinha6.png"];
+    //interval = setInterval(interruption(), 300);
 }
 
 function accessingNest(nNest) {
     nest[nNest].bitR = 1;
+    console.log(nest[nNest].bitR);
     var feeder = "feeder" + nNest;
     document.getElementById(feeder).src = "images/bit1.png";
 }
 
+function updateScenario() {
+    for(var i = 0; i < 6; i++) {
+        var n = "nest" + i;
+        var f = "feeder" + i;
+        document.getElementById(f).src = "images/bit0.png";
+        console.log("imagem: " + nest[i].chicken);
+        document.getElementById(n).src = chickens[nest[i].chicken];
+    }
+}
 
 function interruption() {
     console.log("interruption");
     for (var i = 0; i < 6; i++) {
-        nest[i].chicken += Number(nest[i].bitR);
         nest[i].access.pop();
         nest[i].access.unshift(nest[i].bitR);
-        console.log(nest[i].access[3]);
+        nest[i].chicken += nest[i].bitR;
+        if (nest[i].bitR == 0) {
+            if(nest[i].chicken > 0)
+                nest[i].chicken--;
+        } else if(nest[i].chicken < 10) {
+            nest[i].chicken++;
+        }
+        nest[i].bitR = 0;
     }
-    console.log("finish");
+    updateScenario();
 }
 
 function getAccess(nNest) {
@@ -44,6 +60,7 @@ function getAccess(nNest) {
 }
 
 function changeNest() {
+    interruption();
     function getLeastAccesses() {
         var leastAccessed = 0, nAccess = getAccess(0);
         for (var i = 0; i < 6; i++) {

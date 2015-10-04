@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 .simulation{
     width: 100%;
     height: 400px;
@@ -33,6 +32,17 @@
     width: 205px;
     text-align: center;
     display: inline-block;
+}
+
+.access{
+    width: 100%;
+    height: 10%;
+}
+
+.access table{
+    width: 100%;
+    height: 100%;
+    border: solid;
 }
 
 
