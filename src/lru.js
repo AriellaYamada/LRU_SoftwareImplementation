@@ -21,8 +21,10 @@ function initializingVariables() {
 
 function accessingNest(nNest) {
     nest[nNest].bitR = 1;
-    
+    var feeder = "feeder" + nNest;
+    document.getElementById(feeder).src = "images/bit1.png";
 }
+
 
 function interruption() {
     console.log("interruption");
