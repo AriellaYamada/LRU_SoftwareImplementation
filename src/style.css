@@ -3,7 +3,6 @@
 .simulation{
     width: 100%;
     height: 400px;
-    background: url("images/fundo.jpg") no-repeat;
     background-position: center;
     margin: auto;
 }
@@ -19,9 +18,6 @@
     width: 205px;
     alignment: center;
     text-align: center;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
     display: inline-block;
 }
 .chickens{
@@ -39,11 +35,11 @@
     height: 10%;
 }
 
-.access table{
+.access table {
     width: 100%;
     height: 100%;
-    border: solid;
 }
+
 
 
 
