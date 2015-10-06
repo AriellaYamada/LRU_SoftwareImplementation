@@ -15,12 +15,12 @@ function initializingVariables() {
             auxAccess: ""
         };
     }
-    chickens = ["img/Galinha1.png", "img/Galinha3.png", "img/Galinha3.png",
+    chickens = ["img/Galinha0.png", "img/Galinha1.png", "img/Galinha2.png", "img/Galinha3.png",
         "img/Galinha4.png", "img/Galinha5.png", "img/Galinha6.png", "img/Galinha7.png",
         "img/Galinha8.png", "img/Galinha9.png", "img/Galinha10.png", "img/Galinha11.png",
-        "img/Galinha12.png", "img/Galinha12.png", "img/Galinha13.png", "img/Galinha14.png",
-        "img/Galinha15.png", "img/Galinha16.png"];
-    //interval = setInterval(interruption(), 300);
+        "img/Galinha12.png", "img/Galinha13.png", "img/Galinha14.png", "img/Galinha15.png",
+        "img/Galinha16.png"];
+    interval = setInterval(interruption(), 300);
     updateScenario();
 }
 
