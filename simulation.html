@@ -81,62 +81,66 @@
             <div class="col-lg-12 text-center">
                 <h2>Simulação</h2>
                 <hr>
-                <br>
-
                 <div class="inner-container text-center">
-                    <div class="feeders">
-                        <div class="feeder"><img src="img/bit0.png" id="feeder0"></div>
-                        <div class="feeder"><img src="img/bit0.png" id="feeder1"></div>
-                        <div class="feeder"><img src="img/bit0.png" id="feeder2"></div>
-                        <div class="feeder"><img src="img/bit0.png" id="feeder3"></div>
-                        <div class="feeder"><img src="img/bit0.png" id="feeder4"></div>
-                        <div class="feeder"><img src="img/bit0.png" id="feeder5"></div>
+                    <button id="start-pause" class="btn btn-primary btn-lg" onclick="start()">Jogar</button>
+                    <div id="buttons">
+                        <button id="interruption" class="btn btn-danger btn-md" onclick="interruption()" >Interrupção</button>
+                        <button id="changenest" class="btn btn-info btn-md" onclick="changeNest()">Trocar Ninho</button>
                     </div>
-                    <a href="#" onclick="changeNest()">Change Nest</a>
-                    <div class="chickens">
-                        <div class="chicken"><a href="#" onclick="accessingNest(0)"><img id="nest0" src="img/nest.png"></a></div>
-                        <div class="chicken"><a href="#" onclick="accessingNest(1)"><img id="nest1" src="img/nest.png"></a></div>
-                        <div class="chicken"><a href="#" onclick="accessingNest(2)"><img id="nest2" src="img/nest.png"></a></div>
-                        <div class="chicken"><a href="#" onclick="accessingNest(3)"><img id="nest3" src="img/nest.png"></a></div>
-                        <div class="chicken"><a href="#" onclick="accessingNest(4)"><img id="nest4" src="img/nest.png"></a></div>
-                        <div class="chicken"><a href="#" onclick="accessingNest(5)"><img id="nest5" src="img/nest.png"></a></div>
-                    </div>
-                    <div class="access">
-                        <div class="bits">
-                            <img id="c0access0"src="img/access0.png">
-                            <img id="c0access1"src="img/access0.png">
-                            <img id="c0access2"src="img/access0.png">
-                            <img id="c0access3"src="img/access0.png">
+                    <div id="scenario">
+                        <div class="feeders">
+                            <div class="feeder"><img src="img/bit0.png" id="feeder0"></div>
+                            <div class="feeder"><img src="img/bit0.png" id="feeder1"></div>
+                            <div class="feeder"><img src="img/bit0.png" id="feeder2"></div>
+                            <div class="feeder"><img src="img/bit0.png" id="feeder3"></div>
+                            <div class="feeder"><img src="img/bit0.png" id="feeder4"></div>
+                            <div class="feeder"><img src="img/bit0.png" id="feeder5"></div>
                         </div>
-                        <div class="bits">
-                            <img id="c1access0"src="img/access0.png">
-                            <img id="c1access1"src="img/access0.png">
-                            <img id="c1access2"src="img/access0.png">
-                            <img id="c1access3"src="img/access0.png">
+                        <div class="chickens">
+                            <div class="chicken"><a href="#" onclick="accessingNest(0)"><img id="nest0" src=""></a></div>
+                            <div class="chicken"><a href="#" onclick="accessingNest(1)"><img id="nest1" src=""></a></div>
+                            <div class="chicken"><a href="#" onclick="accessingNest(2)"><img id="nest2" src=""></a></div>
+                            <div class="chicken"><a href="#" onclick="accessingNest(3)"><img id="nest3" src=""></a></div>
+                            <div class="chicken"><a href="#" onclick="accessingNest(4)"><img id="nest4" src=""></a></div>
+                            <div class="chicken"><a href="#" onclick="accessingNest(5)"><img id="nest5" src=""></a></div>
                         </div>
-                        <div class="bits">
-                            <img id="c2access0"src="img/access0.png">
-                            <img id="c2access1"src="img/access0.png">
-                            <img id="c2access2"src="img/access0.png">
-                            <img id="c2access3"src="img/access0.png">
-                        </div>
-                        <div class="bits">
-                            <img id="c3access0"src="img/access0.png">
-                            <img id="c3access1"src="img/access0.png">
-                            <img id="c3access2"src="img/access0.png">
-                            <img id="c3access3"src="img/access0.png">
-                        </div>
-                        <div class="bits">
-                            <img id="c4access0"src="img/access0.png">
-                            <img id="c4access1"src="img/access0.png">
-                            <img id="c4access2"src="img/access0.png">
-                            <img id="c4access3"src="img/access0.png">
-                        </div>
-                        <div class="bits">
-                            <img id="c5access0"src="img/access0.png">
-                            <img id="c5access1"src="img/access0.png">
-                            <img id="c5access2"src="img/access0.png">
-                            <img id="c5access3"src="img/access0.png">
+                        <div class="access">
+                            <div class="bits">
+                                <img id="c0access0"src="img/access0.png">
+                                <img id="c0access1"src="img/access0.png">
+                                <img id="c0access2"src="img/access0.png">
+                                <img id="c0access3"src="img/access0.png">
+                            </div>
+                            <div class="bits">
+                                <img id="c1access0"src="img/access0.png">
+                                <img id="c1access1"src="img/access0.png">
+                                <img id="c1access2"src="img/access0.png">
+                                <img id="c1access3"src="img/access0.png">
+                            </div>
+                            <div class="bits">
+                                <img id="c2access0"src="img/access0.png">
+                                <img id="c2access1"src="img/access0.png">
+                                <img id="c2access2"src="img/access0.png">
+                                <img id="c2access3"src="img/access0.png">
+                            </div>
+                            <div class="bits">
+                                <img id="c3access0"src="img/access0.png">
+                                <img id="c3access1"src="img/access0.png">
+                                <img id="c3access2"src="img/access0.png">
+                                <img id="c3access3"src="img/access0.png">
+                            </div>
+                            <div class="bits">
+                                <img id="c4access0"src="img/access0.png">
+                                <img id="c4access1"src="img/access0.png">
+                                <img id="c4access2"src="img/access0.png">
+                                <img id="c4access3"src="img/access0.png">
+                            </div>
+                            <div class="bits">
+                                <img id="c5access0"src="img/access0.png">
+                                <img id="c5access1"src="img/access0.png">
+                                <img id="c5access2"src="img/access0.png">
+                                <img id="c5access3"src="img/access0.png">
+                            </div>
                         </div>
                     </div>
                 </div>

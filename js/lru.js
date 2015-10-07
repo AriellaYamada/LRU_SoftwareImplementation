@@ -3,7 +3,7 @@ var nest;
 var chickens;
 var interval;
 
-document.addEventListener("DOMContentLoaded", initializingVariables());
+document.addEventListener("DOMContentLoaded", teste());
 //document.addEventListener("DOMContentLoaded", setInterval(interruption(), 3000));
 function initializingVariables() {
     nest = new Array(6);
@@ -18,9 +18,8 @@ function initializingVariables() {
     chickens = ["img/Galinha0.png", "img/Galinha1.png", "img/Galinha2.png", "img/Galinha3.png",
         "img/Galinha4.png", "img/Galinha5.png", "img/Galinha6.png", "img/Galinha7.png",
         "img/Galinha8.png", "img/Galinha9.png", "img/Galinha10.png", "img/Galinha11.png",
-        "img/Galinha12.png", "img/Galinha13.png", "img/Galinha14.png", "img/Galinha15.png",
-        "img/Galinha16.png"];
-    interval = setInterval(interruption(), 300);
+        "img/Galinha12.png", "img/Galinha13.png", "img/Galinha14.png", "img/Galinha15.png"];
+    //interval = setInterval(interruption(), 300);
     updateScenario();
 }
 
@@ -48,7 +47,7 @@ function interruption() {
     for (var i = 0; i < 6; i++) {
         nest[i].access.pop();
         nest[i].access.unshift(nest[i].bitR);
-        nest[i].chicken += getAccess(i);
+        nest[i].chicken = getAccess(i);
         if (nest[i].bitR == 0) {
             if(nest[i].chicken > 0)
                 nest[i].chicken--;
@@ -68,23 +67,21 @@ function getAccess(nNest) {
     }
     return nest[nNest].auxAccess;
 }
-
-function changeNest() {
-    interruption();
-    function getLeastAccesses() {
-        var leastAccessed = 0, nAccess = getAccess(0);
-        for (var i = 0; i < 6; i++) {
-            for (var j = 0; j < 6; j++) {
-                var access = getAccess(j);
-                if (access < nAccess) {
-                    leastAccessed = j;
-                    nAccess = access;
-                }
+function getLeastAccesses() {
+    var leastAccessed = 0, nAccess = getAccess(0);
+    for (var i = 0; i < 6; i++) {
+        for (var j = 0; j < 6; j++) {
+            var access = getAccess(j);
+            if (access < nAccess) {
+                leastAccessed = j;
+                nAccess = access;
             }
         }
-        return leastAccessed;
-    };
+    }
+    return leastAccessed;
+}
 
+function changeNest() {
     var newNest = {
         bitR: 0,
         chicken: 0,
@@ -92,8 +89,24 @@ function changeNest() {
     }
     var aux = getLeastAccesses();
     nest[aux] = newNest;
+    interruption();
 }
 
+function pauseSimulation(){
+    interval.stop();
+}
+
+function start(){
+    initializingVariables();
+    document.getElementById("start-pause").className = 'btn btn-warning btn-md';
+    document.getElementById("start-pause").innerHTML = 'Pausar';
+    document.getElementById("start-pause").onclick = pauseSimulation();
+    document.getElementById('scenario').style.display = 'block';
+}
+
+function teste(){
+    document.getElementById('interruption').style.display = 'none';
+}
 
 
 
