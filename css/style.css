@@ -2,78 +2,119 @@
 
 .simulation{
     width: 100%;
-    height: 500px;
-    max-height: 400px;
+    height: auto;
     background-position: center;
-    margin: auto;
 }
 
 .simulation img {
     width: 25%;
 }
+
+.simulation button{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 3%;
+    margin-left: 3%;
+    alignment: center;
+}
+
+.simulation a{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
 .feeders{
     display: inline-block;
-    height: 25%;
+    height: 40%;
+    width: 100%;
+    padding-top: 4%;
 }
 
 .feeder{
     height: 100%;
     width: 15%;
     display: inline-block;
+    background: url("../img/Alimentador.png") no-repeat ;
+    background-size: 30%;
+    background-position: center;
 }
 
 .feeder img{
     alignment: center;
-    margin-right: 35px;
-    margin-left: 30px;
+    height: 100%;
+    width: auto;
 }
 
 .chickens{
-    height: 70%;
+    height: 60%;
+    width: 100%;
+    padding-bottom: 2%;
+    background: url("../img/Cenario.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
 .chicken{
-    height: 40%;
+    height: auto;
+    max-height: 40%;
     width: 15%;
-    margin: auto;
-    margin-top: 1%;
     text-align: center;
     display: inline-block;
 }
 
 .chicken img{
-    height: 100%;
-    max-width: 80%;
+    width: 100%;
+    height: auto;
+    min-height: 80%;
+}
+
+.chicken button{
+    height: 80%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    box-sizing: content-box;
+    padding-bottom: 20%;
+    alignment: bottom;
+    background-size: 100%;
+    display: block;
 }
 
 .access{
-    width: 80%;
-    height: 5%;
+    width: 100%;
+    height: 10%;
     display: inline-block;
+    alignment: bottom;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .bits{
     width: 15%;
-    height: 100%;
+    height: 90%;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 1%;
-    margin-top: 1%;
     border: solid;
     display: inline-block;
 }
 .bits img{
+    height: auto;
     width: 20%;
+    alignment: center;
+    resize: both;
+    display: inline-block;
 }
 
+.buttons{
+    height: auto;
+    width: 100%;
+}
 #scenario {
-    background: url("../img/scenario.png") no-repeat;
-    background-position: center;
-    background-size: 80%;
     width: 100%;
     height: 70%;
+
 }
-
-
 
 

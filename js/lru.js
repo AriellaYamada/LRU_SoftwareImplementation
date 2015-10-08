@@ -3,7 +3,6 @@ var nest;
 var chickens;
 var interval;
 
-document.addEventListener("DOMContentLoaded", teste());
 //document.addEventListener("DOMContentLoaded", setInterval(interruption(), 3000));
 function initializingVariables() {
     nest = new Array(6);
@@ -27,6 +26,7 @@ function accessingNest(nNest) {
     nest[nNest].bitR = 1;
     var feeder = "feeder" + nNest;
     document.getElementById(feeder).src = "img/bit1.png";
+    $('simulation').focus();
 }
 
 function updateScenario() {
@@ -35,12 +35,14 @@ function updateScenario() {
         var f = "feeder" + i;
         document.getElementById(f).src = "img/bit0.png";
         document.getElementById(n).src = chickens[nest[i].chicken];
+
         for (var j = 0; j < 4; j++) {
             var bit = "c" + i + "access" + j;
             var image = "img/access" + nest[i].access[j] + ".png";
             document.getElementById(bit).src = image;
         }
     }
+    $('simulation').focus();
 }
 
 function interruption() {
@@ -82,32 +84,30 @@ function getLeastAccesses() {
 }
 
 function changeNest() {
+    interruption();
     var newNest = {
         bitR: 0,
-        chicken: 0,
-        access: [0, 0, 0, 0]
+        chicken: 8,
+        access: [1, 0, 0, 0]
     }
     var aux = getLeastAccesses();
     nest[aux] = newNest;
-    interruption();
+    document.getElementById("nest" + aux).src = "";
 }
 
 function pauseSimulation(){
     interval.stop();
+
 }
 
-function start(){
+function start() {
     initializingVariables();
     document.getElementById("start-pause").className = 'btn btn-warning btn-md';
-    document.getElementById("start-pause").innerHTML = 'Pausar';
-    document.getElementById("start-pause").onclick = pauseSimulation();
-    document.getElementById('scenario').style.display = 'block';
+    document.getElementById("start-pause").innerHTML = 'Interrupção Manual';
+    document.getElementById("interruption").className = 'btn btn-danger btn-md';
+    document.getElementById("interruption").innerHTML = 'Interrupção';
+    document.getElementById("interruption").style.display = 'initial';
+    document.getElementById("changenest").className = 'btn btn-info btn-md';
+    document.getElementById("changenest").innerHTML = 'Trocar Galinha';
+    document.getElementById("changenest").style.display = 'initial';
 }
-
-function teste(){
-    document.getElementById('interruption').style.display = 'none';
-}
-
-
-
-

@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74548244-b87d-4d3e-8626-9fd7976bd812" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/business-casual.css" afterPath="$PROJECT_DIR$/css/business-casual.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha0.png" afterPath="$PROJECT_DIR$/img/Galinha0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha1.png" afterPath="$PROJECT_DIR$/img/Galinha1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha10.png" afterPath="$PROJECT_DIR$/img/Galinha10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha11.png" afterPath="$PROJECT_DIR$/img/Galinha11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha12.png" afterPath="$PROJECT_DIR$/img/Galinha12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha13.png" afterPath="$PROJECT_DIR$/img/Galinha13.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha14.png" afterPath="$PROJECT_DIR$/img/Galinha14.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha15.png" afterPath="$PROJECT_DIR$/img/Galinha15.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha2.png" afterPath="$PROJECT_DIR$/img/Galinha2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha3.png" afterPath="$PROJECT_DIR$/img/Galinha3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha4.png" afterPath="$PROJECT_DIR$/img/Galinha4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha5.png" afterPath="$PROJECT_DIR$/img/Galinha5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha6.png" afterPath="$PROJECT_DIR$/img/Galinha6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha7.png" afterPath="$PROJECT_DIR$/img/Galinha7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha8.png" afterPath="$PROJECT_DIR$/img/Galinha8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Galinha9.png" afterPath="$PROJECT_DIR$/img/Galinha9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/access0.png" afterPath="$PROJECT_DIR$/img/access0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/access1.png" afterPath="$PROJECT_DIR$/img/access1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lru.js" afterPath="$PROJECT_DIR$/js/lru.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulation.html" afterPath="$PROJECT_DIR$/simulation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
@@ -32,9 +49,12 @@
       <file leaf-file-name="simulation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simulation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.607595">
-              <caret line="87" column="67" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
-              <folding />
+            <state vertical-scroll-proportion="-0.37974682">
+              <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#button#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,8 +62,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.909091">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -52,8 +72,8 @@
       <file leaf-file-name="lru.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/lru.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7034483">
-              <caret line="91" column="19" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+            <state vertical-scroll-proportion="2.0149255">
+              <caret line="90" column="18" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -63,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.592592">
-              <caret line="4139" column="12" selection-start-line="4139" selection-start-column="3" selection-end-line="4139" selection-end-column="12" />
+              <caret line="3032" column="4" selection-start-line="3032" selection-start-column="1" selection-end-line="3032" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -73,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/css/business-casual.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="184" column="21" selection-start-line="184" selection-start-column="21" selection-end-line="184" selection-end-column="21" />
+              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="188" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -107,8 +127,8 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2" />
         <option value="$PROJECT_DIR$/css/business-casual.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/simulation.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/lru.js" />
       </list>
     </option>
@@ -469,12 +489,12 @@
       <workItem from="1444007315024" duration="6360000" />
       <workItem from="1444077281546" duration="6553000" />
       <workItem from="1444136216366" duration="79000" />
-      <workItem from="1444139808923" duration="10224000" />
+      <workItem from="1444139808923" duration="22854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48144000" />
+    <option name="totallyTimeSpent" value="60774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="642" y="0" width="638" height="800" extended-state="0" />
@@ -566,7 +586,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#button#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -614,7 +637,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#button#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -846,42 +872,45 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/business-casual.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="184" column="21" selection-start-line="184" selection-start-column="21" selection-end-line="184" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.909091">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.592592">
-          <caret line="4139" column="12" selection-start-line="4139" selection-start-column="3" selection-end-line="4139" selection-end-column="12" />
+          <caret line="3032" column="4" selection-start-line="3032" selection-start-column="1" selection-end-line="3032" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/business-casual.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="188" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simulation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.607595">
-          <caret line="87" column="67" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
+        <state vertical-scroll-proportion="-0.37974682">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#button#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/lru.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7034483">
-          <caret line="91" column="19" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+        <state vertical-scroll-proportion="2.0149255">
+          <caret line="90" column="18" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
           <folding />
         </state>
       </provider>
